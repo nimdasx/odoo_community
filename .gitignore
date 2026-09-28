@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Virtual environment
+.venv/
+
+# Odoo runtime data (filestore, sessions, addons cache) — root only
+/odoo-data/
+
+# Postgres data volume
+/psqlx-var-lib-postgresql-data-pgdata/
+
+# pgAdmin data volume
+/pgadminx-var-lib-pgadmin/
+
+# Environment config (use .env.sample as template)
+.env
+
+# Odoo config - contains admin_passwd hash (use odoo.conf.sample.dev /
+# odoo.conf.sample.prod as templates)
+odoo.conf
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Editor temp files
+*.swp
+*~
+*.bak
+
+# Docker Compose local override
+docker-compose.override.yml
+
+# OS files
+.DS_Store
+Thumbs.db

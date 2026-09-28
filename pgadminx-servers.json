@@ -1,0 +1,13 @@
+{
+  "Servers": {
+    "1": {
+      "Name": "Server X",
+      "Group": "Servers",
+      "Port": 5432,
+      "Username": "odoo",
+      "Host": "psqlx",
+      "SSLMode": "disable",
+      "MaintenanceDB": "postgres"
+    }
+  }
+}

@@ -1,0 +1,7 @@
+# Tidak ada override untuk prod saat ini - odoo.conf lokal (bukan
+# docker-compose) yang membedakan konfigurasi dev/prod. File ini sengaja
+# dibiarkan sebagai placeholder untuk tuning khusus prod di masa depan
+# (mis. resource limits, logging driver), dan supaya COMPOSE_FILE di
+# .env.sample tetap valid.
+services:
+  odoo: {}

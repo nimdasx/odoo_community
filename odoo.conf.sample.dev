@@ -1,0 +1,6 @@
+[options]
+# Enterprise tidak dipakai di community:
+# addons_path = /mnt/extra-addons,/mnt/odoo_addon_official/enterprise,/mnt/odoo_addon_official/design-themes,/mnt/odoo_addon_shared
+addons_path = /mnt/extra-addons,/mnt/odoo_addon_official/design-themes,/mnt/odoo_addon_shared
+workers = 0
+http_interface = 0.0.0.0
