@@ -14,18 +14,10 @@ cp odoo.conf.sample.dev odoo.conf       # untuk prod: odoo.conf.sample.prod
 docker compose up -d
 ```
 
-Buka Odoo di `http://localhost:<ODOO_PORT>` dan pgAdmin di `http://localhost:<PGADMIN_PORT>` (port ada di `.env`).
+Odoo: `localhost:<ODOO_PORT>`, pgAdmin: `localhost:<PGADMIN_PORT>` (lihat `.env`).
 
 ## Update modul
 
 ```bash
 ./update-module.sh <database> <modul1> [modul2] ...
-```
-
-## Update image Odoo
-
-Image `odoo20-local` dibuild dari [odoo/docker 20.0](https://github.com/odoo/docker/tree/master/20.0) karena `odoo:20` belum ada di Docker Hub.
-
-```bash
-../odoo_docker_image/build.sh && docker compose up -d
 ```
